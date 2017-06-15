@@ -4,8 +4,8 @@
 # Date: 2 July 2015
 
 
-#' Given a data.frame of UKB data with an f.eid column and
-#' other columns of the same type (numeric, factor, character)
+# Given a data.frame of UKB data with an f.eid column and
+# other columns of the same type (numeric, factor, character)
 ukb_fields2long_type <- function(ukb) {
 
 # check that there is an f.eid field
@@ -49,7 +49,7 @@ ukb_fields2long_type <- function(ukb) {
 
 }
 
-#' turn a single f.eid, f.1234.5.6 pair into long format
+# turn a single f.eid, f.1234.5.6 pair into long format
 ukb_fields2long_single <- function(ukb) {
 
   # check that there are only 2 columns with the right name
