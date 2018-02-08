@@ -5,5 +5,5 @@ UK Biobank data manipulation routines
 
 ```
 library(devtools)
-install_github('ukbiobank-MentalHealth-Genetics/ukbiobanker')
+install_github('ccbs-stradl/ukbiobanker')
 ```
